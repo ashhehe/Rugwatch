@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from “react”;
 
-const SUPABASE_URL = “https://awrbfaapgalkqsjwloyw.supabase.co”;
-const SUPABASE_ANON_KEY = “eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF3cmJmYWFwZ2Fsa3Fzandsb3l3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgxODMzMjksImV4cCI6MjA5Mzc1OTMyOX0.LSI3Efp9uHB9cHvQAO0N8YGx1WSDWjuOG7KrSYktqsA”;
+const SUPABASE_URL = "https://awrbfaapgalkqsjwloyw.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF3cmJmYWFwZ2Fsa3Fzandsb3l3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgxODMzMjksImV4cCI6MjA5Mzc1OTMyOX0.LSI3Efp9uHB9cHvQAO0N8YGx1WSDWjuOG7KrSYktqsA";
 
 const db = {
 async get(table, options = {}) {
